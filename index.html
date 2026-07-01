@@ -881,9 +881,15 @@ p { margin-bottom: 0; line-height: 1.8; }
                         <p class="certificate-description">Certificate of Participation</p>
                         <span class="view-certificate-btn">View Certificate →</span>
                     </div>
+					<div class="certificate-card" onclick="openCertificate('ICIET')">
+                        <div class="certificate-icon">🎓</div>
+                        <h3 class="certificate-title">International Conference on Insights and Innovations in Emerging Technologies-ICIET'25</h3>
+                        <p class="certificate-description">Certificate of Participation</p>
+                        <span class="view-certificate-btn">View Certificate →</span>
+                    </div>
                     <div class="certificate-card" onclick="openCertificate('atneai')">
                         <div class="certificate-icon">🎓</div>
-                        <h3 class="certificate-title">SKASC's ATNEAI 2026 CONFERENCE</h3>
+                        <h3 class="certificate-title">journal-publication.pdf CONFERENCE</h3>
                         <p class="certificate-description">Certificate of Participation</p>
                         <span class="view-certificate-btn">View Certificate →</span>
                     </div>
@@ -929,7 +935,7 @@ p { margin-bottom: 0; line-height: 1.8; }
                     <div class="achievement-card" onclick="openCertificate('bestpaper')">
                         <div class="achievement-icon">🏆</div>
                         <h3 class="achievement-title">Best Paper Award Winner</h3>
-                        <p class="achievement-description">SKASC's ATNEAI 2026 CONFERENCE</p>
+                        <p class="achievement-description">journal-publication.pdf CONFERENCE</p>
                         <span class="view-certificate-btn">View Award →</span>
                     </div>
                     <div class="achievement-card" onclick="openCertificate('network')">
@@ -1085,6 +1091,7 @@ function openCertificate(certName) {
         // PDFs
         'journal':       { path: 'assets/certificates/journal-publication.pdf',           type: 'pdf' },
         'datascience':   { path: 'assets/certificates/data-science-certificate.pdf',      type: 'pdf' },
+		'ICIET':        { path: 'assets/certificates/ICIET_Conference.pdf',             type: 'pdf' },
         'atneai':        { path: 'assets/certificates/atneai-conference.pdf',             type: 'pdf' },
         'webtech':       { path: 'assets/certificates/webtech-certificate.pdf',           type: 'pdf' },
         'energy':        { path: 'assets/certificates/energy-certificate.pdf',            type: 'pdf' },
